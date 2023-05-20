@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+}
+
+img{
+    grid-column: 1/2;
+    width:20%
+}
+h1{
+    background-color: aquamarine;
+    grid-column: 2/-1;
+
+}
+.sec1{
+    background-color: blue;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
