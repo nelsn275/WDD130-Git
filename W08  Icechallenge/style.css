@@ -1,0 +1,53 @@
+.box{
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 900px;
+}
+
+img {
+    padding: 10px;
+    height: 100%
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 49px;
+    font-weight: 20;
+}
+#textbox1{
+    width: 90%;
+    height: 70px;
+    font-size: 25px;
+}
+#textbox{
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+#checkbox{
+    height: 20px;
+    width: 20px;
+}
+
+#checkbox_area{
+    font-size: 20px;
+    line-height: center;
+}
+button{
+    background-color:orange;
+    color: white;
+    border:0px;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+
+}
+#button_area{
+    text-align: center;
+    padding-top: 20px;
+}
