@@ -1,6 +1,93 @@
-.logo{
-    width: 200px;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=PT+Sans+Narrow&display=swap');
+
+/* Header CSS*/
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
+header .logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+header .right-side{
+    grid-column: 3/4;
+    margin-left: 100px;
+}
+.right-side a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black;
+}
+.right-side a:hover{
+    color:pink;
+}
+.right-side img{
+    width: 40px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+header input{
+    grid-column: 4/5;
+    height: 30px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+
+
+/*Body CSS*/
+#title-pic{
+    text-align: center;
+    margin-top: -100px;
+}
+#title-pic img{
+    width: 50%;
+}
+.food-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    font-family: Lora;
+    text-align: center;
+}
+.food-section h2{
+    text-align: center;
+    grid-column: 1/4;
+    margin: 50px;
+    font-family: Lora;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+}
+.food-section .food-card1{
+    margin-left: 300px;
+}
+.food-section .food-card3{
+    margin-right: 300px;
+
+}
+.food-section p{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: large;
+}
+.food-section img{
+    width: 250px;
+    height: 350px;
+}
+
+
 #portrait{
     width: 400px;
 }
@@ -8,9 +95,43 @@
     width: 100%;
     height: 500px;
 }
-.food-card{
-    width: 200px;
+
+
+
+/* Footer CSS  */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 200px;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(203, 201, 201);
+}
+footer .logo{
+    width: 150px
+}
+#contact-info
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: large;
+    margin-right: 75px;
+}
+#other-stuff{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: large;
+    margin: 50px;
+}
+#icon-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .icon{
     width: 50px;
 }
+
