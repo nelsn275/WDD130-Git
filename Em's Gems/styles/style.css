@@ -41,6 +41,9 @@ header input{
 
 
 /*Body CSS*/
+body{
+    margin:0;
+}
 #title-pic{
     text-align: center;
     margin-top: -100px;
@@ -67,26 +70,80 @@ header input{
     height: 100px;
     line-height: 100px;
 }
-.food-section .food-card1{
-    margin-left: 300px;
-}
-.food-section .food-card3{
-    margin-right: 300px;
 
+
+.food-card1{
+    margin-left: 300px;
+    height: 350px;
+    position: relative;
+    grid-column: 1/2;
 }
-.food-section p{
+.food-card2{
+    height: 350px;
+    position: relative;
+    grid-column: 2/3;
+}
+.food-card3{
+    margin-right: 300px;
+    height: 350px;
+    position: relative;
+    grid-column: 3/4;
+}
+
+
+.food-card1 img{
+    transition: .5s ease;
+}
+.food-card2 img{
+    transition: .5s ease;
+}
+.food-card3 img{
+    transition: .5s ease;
+}
+
+
+.food-card1:hover img{
+    opacity: .3;
+}
+.food-card2:hover img{
+    opacity: .3;
+}
+.food-card3:hover img{
+    opacity: .3;
+}
+
+
+.middle{
+    opacity: 0;
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.food-card1:hover .middle{
+    opacity: 1;
+}
+.food-card2:hover .middle{
+    opacity: 1;
+}
+.food-card3:hover .middle{
+    opacity: 1;
+}
+
+
+.text{
     background-color: black;
     color: white;
-    width: 100%;
-    text-align: center;
-    line-height: 100px;
-    font-size: large;
+    padding: 16px 32px;
+
 }
 .food-section img{
     width: 250px;
     height: 350px;
 }
-
 
 #portrait{
     width: 400px;
