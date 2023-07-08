@@ -40,7 +40,7 @@ header input{
 
 
 
-/*Body CSS*/
+/* Index Body CSS */
 body{
     margin:0;
 }
@@ -153,6 +153,46 @@ body{
     height: 500px;
 }
 
+
+/* About Us Body CSS */
+
+#about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+#about-us img{
+    grid-row: 1/5;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    border: 5px solid tan;
+}
+#about-us h1{
+    font-size: 2em;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+#about-us hr{
+    width: 95%;
+    height: 1px;
+    background-color: black;
+    margin-right: 75px;
+}
+#about-us #side-paragraph{
+    grid-column: 2/3;
+    font-size: x-large;
+    word-spacing: 2px;
+    line-height: 30px;
+    width: 90%;
+}
+#about-us #bottom-paragraph{
+    grid-column: 2/3;
+    font-size: x-large;
+    width: 90%;
+    font-size: x-large;
+    word-spacing: 2px;
+    line-height: 30px;
+}
 
 
 /* Footer CSS  */
