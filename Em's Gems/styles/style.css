@@ -171,6 +171,7 @@ body{
     font-size: 2em;
     margin-left: -20px;
     margin-right: 20px;
+    font-family: Lora;
 }
 #about-us hr{
     width: 95%;
@@ -184,6 +185,7 @@ body{
     word-spacing: 2px;
     line-height: 30px;
     width: 90%;
+    font-family: Lora;
 }
 #about-us #bottom-paragraph{
     grid-column: 2/3;
@@ -192,6 +194,7 @@ body{
     font-size: x-large;
     word-spacing: 2px;
     line-height: 30px;
+    font-family: Lora;
 }
 
 
